@@ -1,0 +1,77 @@
+
+
+.Navigation {
+  text-decoration: none;
+  
+}
+
+h3{
+  text-align: center;
+  font-size: large;
+  background-color: #d6a8ef;
+  padding: 10px;
+  border-radius: 10px;
+  transform: transform .2s;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+h3:hover{
+  transform: scale(1.2);
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  background-color: #debaf2;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+}
+
+li a {
+  font-size: large;
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #7407ae on hover */
+li a:hover {
+  color: #7407ae;
+  transform: transform .2s;
+  transform: scale(1);
+}
+
+.butt{
+ padding: 10px 12px;
+}
+
+
+
+.btn {
+  color: #fffdfd;
+  border: 2px;
+  background-color: rgb(129, 91, 193);
+  background-attachment: fixed;
+  padding:9px 40px;
+  font-size: 17px;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+.btn:hover {
+  color: wheat;
+  background-color: rgba(52, 37, 152, 0.689);
+  transform: scale(1.1);
+  transform: transform .2s;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
